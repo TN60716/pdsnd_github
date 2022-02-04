@@ -1,3 +1,4 @@
+"""welcome to the bikeshare program script, for any question on this script please contact TN60716."""
 import time
 import pandas as pd
 import numpy as np
