@@ -7,7 +7,7 @@
 Bikeshare
 
 ### Description
-Program to explore bikeshare data
+Program to explore bikeshare data, available cities are Chicago, New York City and Washington.
 
 ### Files used
 bikeshare.py
