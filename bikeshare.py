@@ -7,7 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 """define support lists for for get_filters() function"""
-cities = list(CITY_DATA.keys())
+city_list = list(CITY_DATA.keys())
 months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
 days = ['all', 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday' ]
 
@@ -22,10 +22,10 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    str_cities = ', '.join(map(str,cities))
+    str_cities = ', '.join(map(str,city_list))
     while True: 
         city = input('\nFor which city do you want to explore data? \n' + 'The available cities are:\n' + str_cities + '\n').strip().lower()
-        if city  in cities:
+        if city  in city_list:
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
