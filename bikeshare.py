@@ -197,7 +197,7 @@ def user_stats(df):
     print('-'*40)
 
 
-def data(df):
+def reviewdata(df):
     """asks user if he/she wants to cycle through the loaded data 5 rows at a time """
     print(df.head())
     row = 0
@@ -224,7 +224,7 @@ def main():
             show_data = input('\nWould you like to view the first five rows of data (yes/no)?.\n')
             if show_data.strip().lower() != 'yes':
                 break
-            data(df)
+            reviewdata(df)
             break
             
         """ asks the user if he/she wants to restart the program"""
