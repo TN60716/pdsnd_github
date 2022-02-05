@@ -130,7 +130,7 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def convert_seconds(seconds):
+def conv_seconds(seconds):
     """converts an input in seconds into a string with the corresponding days, hours and minutes"""
     seconds_in_day = 60 * 60 * 24
     seconds_in_hour = 60 * 60
@@ -151,12 +151,12 @@ def trip_duration_stats(df):
 
     # TO DO: display total travel time
     total_travel_time = df['Trip Duration'].sum()
-    total_travel_time_converted = convert_seconds(total_travel_time)
+    total_travel_time_converted = conv_seconds(total_travel_time)
     print('Total travel time: {} seconds (= {})'.format(total_travel_time, total_travel_time_converted))
 
     # TO DO: display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    mean_travel_time_converted = convert_seconds(mean_travel_time)
+    mean_travel_time_converted = conv_seconds(mean_travel_time)
     print('Average travel time: {} seconds (= {})'.format(mean_travel_time, mean_travel_time_converted))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
