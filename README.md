@@ -14,10 +14,10 @@ Next the user has the option to explore the data table 5 rows at a time.
 When the user exits the data exploration he will get the option to restart or exit the program. 
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 Thanks to Udacity for providing the helper code and python training
