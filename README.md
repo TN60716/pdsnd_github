@@ -8,6 +8,10 @@ Bikeshare
 
 ### Description
 Program to explore bikeshare data, available cities are Chicago, New York City and Washington.
+In the program the user is aksed to select a city, select a month or all months and select a day or all days. 
+The progam will then display a series of user stats for the selected dataset.
+Next the user has the option to explore the data table 5 rows at a time.
+When the user exits the data exploration he will get the option to restart or exit the program. 
 
 ### Files used
 bikeshare.py
