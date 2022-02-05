@@ -10,10 +10,10 @@ Bikeshare
 Program to explore bikeshare data, available cities are Chicago, New York City and Washington.
 
 ### Files used
-bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+- bikeshare.py
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 ### Credits
 Thanks to Udacity for providing the helper code and python training
